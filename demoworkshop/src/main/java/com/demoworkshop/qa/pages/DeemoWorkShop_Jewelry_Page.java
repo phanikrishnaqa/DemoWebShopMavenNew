@@ -115,18 +115,10 @@ public void Click_Books_Link(String strJewelryExp) {
 
 public void Click_Black_White_Diamond_Heart_Jewelry_Img() {
 		
-	log("Selecting product position by it index value  ");
-	Select Products_Sort_By = new Select(Select_Products_Sort_By);//e3
-	Products_Sort_By.selectByIndex(1);
-		
-	log("Selecting display size of product");
-	Select Display_products = new Select(Select_Display_products_PageSize);
-	Display_products.selectByIndex(2);//e4
-		
-	log("Selecting view of products ");
-	Select View_As_Products = new Select(Select_View_As_Products);
-	View_As_Products.selectByVisibleText("List");;//e5
-
+	
+	Select_Value_From_Dropdown(Select_Products_Sort_By,1);
+	Select_Value_From_Dropdown(Select_Display_products_PageSize,2);	
+	Select_Value_From_Dropdown(Select_View_As_Products,1);
 
 	log("Selecting Black_White_Diamond_Heart_Jewelry ");
 	Black_White_Diamond_Heart_Jewelry.click();	//e6

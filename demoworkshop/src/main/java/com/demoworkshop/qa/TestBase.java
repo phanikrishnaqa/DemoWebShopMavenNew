@@ -19,6 +19,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -47,8 +48,8 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	public  static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	
-	ChromeOptions options;
 	
+	ChromeOptions options;
 	public TestBase(){
 		try {
 			prop = new Properties();
@@ -68,7 +69,7 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formatter = new SimpleDateFormat("dd_MM_yy_hh_mm_ss");
 		extentRep = new ExtentReports(System.getProperty("user.dir") + "/src/main/java/com/demoworkshop/qa/extentreportgenerator" + formatter.format(calendar.getTime()) + ".html", false);
-	}																										//extentreportgenerator_07_06_20_01_01_01.html
+	}														//extentreportgenerator_07_06_20_01_01_01.html
 	
 	public void init() throws IOException {	
 		File log4jconfpath = new File("./src/main/resources/log4j.properties");
@@ -94,7 +95,13 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 				driver = e_driver;
 			}else if(browser.equals("firefox"))
 			{
-				//driver = new GeckoDriverService(); 
+				System.setProperty("webdriver.gecko.driver", "F:\\Selenium\\selenium softwares\\geckodriver\\geckodriver.exe");
+				driver = new FirefoxDriver(); // driver will control the chrome browser instances
+				e_driver = new EventFiringWebDriver(driver);
+				// Now create object of EventListerHandler to register it with EventFiringWebDriver
+				eventListener = new WebEventListener();
+				e_driver.register(eventListener);
+				driver = e_driver; 
 				
 			}else if(browser.equals("ie")) {
 				driver = new InternetExplorerDriver();
@@ -104,17 +111,17 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 				driver = new ChromeDriver(); // driver will control the chrome browser instances
 			}else if(browser.equals("firefox"))
 			{
-				//driver = new GeckoDriverService(); 
+				driver = new FirefoxDriver(); 
 				
 			}else if(browser.equals("ie")) {
 				driver = new InternetExplorerDriver();
 			}
 		}else if((osName.contains("ubantu"))) {
 			if(browser.equals("chrome")) {
-				driver = new ChromeDriver(); // driver will control the chrome browser instances
+				//driver = new ChromeDriver(); // driver will control the chrome browser instances
 			}else if(browser.equals("firefox"))
 			{
-				//driver = new GeckoDriverService(); 
+				driver = new FirefoxDriver(); 
 				
 			}else if(browser.equals("ie")) {
 				driver = new InternetExplorerDriver();
@@ -234,7 +241,5 @@ public static final Logger log = Logger.getLogger(TestBase.class.getName());
 		wait.until(ExpectedConditions.elementToBeClickable(webelement));
 		return webelement;
 	}
-	
-  
 	
 }

@@ -5,7 +5,6 @@
     <classes>
       <class name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
         <methods>
-          <include name="TC006_DemoWorkShop_Gift_Cards_Page"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
@@ -14,7 +13,6 @@
           <include name="AfterClass"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
-          <include name="TC004_Electronics_page"/>
           <include name="afterSuite"/>
           <include name="getResult"/>
         </methods>

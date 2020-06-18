@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-20QI2OV" name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End" tests="2" failures="2" timestamp="18 Jun 2020 06:39:39 GMT" time="0.031" errors="0">
+  <testcase name="TC001_LoginToDemoWebshop" time="0.002" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.demoworkshop.util.DemoWorkShop_Listener.onTestStart(DemoWorkShop_Listener.java:17)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 19 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="TC001_LoginToDemoWebshop" time="0.021" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at com.demoworkshop.util.DemoWorkShop_Listener.onTestFailure(DemoWorkShop_Listener.java:29)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 19 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

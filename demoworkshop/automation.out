@@ -1,0 +1,121 @@
+2020-06-18 11:25:30-main--INFO -com.demoworkshop.qa.TestBase:Navigating to browser : http://demowebshop.tricentis.com/
+ 2020-06-18 11:25:38-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:25:40-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Books page is displayed
+ 2020-06-18 11:25:41-main--INFO -com.demoworkshop.qa.TestBase:Books page is displayed with expected :Books is matched with Actual value : Books
+ 2020-06-18 11:25:41-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:25:42-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:25:42-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:25:43-main--INFO -com.demoworkshop.qa.TestBase:Selecting Computing and Internet Book 
+ 2020-06-18 11:25:44-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Computing and Internet Book 
+ 2020-06-18 11:25:48-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:25:48-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:25:48-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Fiction Book 
+ 2020-06-18 11:25:50-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:25:50-main--INFO -com.demoworkshop.qa.TestBase:adding Health Book to cart
+ 2020-06-18 11:25:51-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Health Book 
+ 2020-06-18 11:25:53-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:25:53-main--INFO -com.demoworkshop.qa.TestBase:Adding Science Book to cart
+ 2020-06-18 11:25:54-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Science Book 
+ 2020-06-18 11:30:23-main--INFO -com.demoworkshop.qa.TestBase:Navigating to browser : http://demowebshop.tricentis.com/
+ 2020-06-18 11:30:28-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:30:29-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Books page is displayed
+ 2020-06-18 11:30:30-main--INFO -com.demoworkshop.qa.TestBase:Books page is displayed with expected :Books is matched with Actual value : Books
+ 2020-06-18 11:30:30-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:30:31-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:30:32-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:30:33-main--INFO -com.demoworkshop.qa.TestBase:Selecting Computing and Internet Book 
+ 2020-06-18 11:30:33-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Computing and Internet Book 
+ 2020-06-18 11:30:37-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:30:37-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:30:37-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Fiction Book 
+ 2020-06-18 11:30:40-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:30:40-main--INFO -com.demoworkshop.qa.TestBase:adding Health Book to cart
+ 2020-06-18 11:30:41-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Health Book 
+ 2020-06-18 11:30:43-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:30:43-main--INFO -com.demoworkshop.qa.TestBase:Adding Science Book to cart
+ 2020-06-18 11:30:44-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Science Book 
+ 2020-06-18 11:39:15-main--INFO -com.demoworkshop.qa.TestBase:Navigating to browser : http://demowebshop.tricentis.com/
+ 2020-06-18 11:39:27-main--INFO -com.demoworkshop.qa.TestBase:Verifying the home page is displayed
+ 2020-06-18 11:39:27-main--INFO -com.demoworkshop.qa.TestBase:Home page is not displayed with expected :Tricentis Demo Web Shop is not matched with Actual value : 
+ 2020-06-18 11:39:28-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:39:28-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Books page is displayed
+ 2020-06-18 11:39:29-main--INFO -com.demoworkshop.qa.TestBase:Books page is displayed with expected :Books is matched with Actual value : Books
+ 2020-06-18 11:39:29-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:39:30-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:39:32-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:39:34-main--INFO -com.demoworkshop.qa.TestBase:Selecting Computing and Internet Book 
+ 2020-06-18 11:39:35-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Computing and Internet Book 
+ 2020-06-18 11:39:37-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:39:37-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Books Link
+ 2020-06-18 11:39:38-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Fiction Book 
+ 2020-06-18 11:39:42-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:39:42-main--INFO -com.demoworkshop.qa.TestBase:adding Health Book to cart
+ 2020-06-18 11:39:42-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Health Book 
+ 2020-06-18 11:39:47-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Book page 
+ 2020-06-18 11:39:47-main--INFO -com.demoworkshop.qa.TestBase:Adding Science Book to cart
+ 2020-06-18 11:39:47-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Science Book 
+ 2020-06-18 11:39:50-main--INFO -com.demoworkshop.qa.TestBase:Cliking on Electronics Link
+ 2020-06-18 11:39:50-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Electronics page is displayed
+ 2020-06-18 11:39:55-main--INFO -com.demoworkshop.qa.TestBase:Electronics page is displayed with expected :Electronics is matched with Actual value : Electronics
+ 2020-06-18 11:39:55-main--INFO -com.demoworkshop.qa.TestBase:Cliking on Camera and Photos Link in Electronics
+ 2020-06-18 11:39:56-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Camera and Photos page is displayed
+ 2020-06-18 11:39:59-main--INFO -com.demoworkshop.qa.TestBase:Camera Phone page is displayed with expected :Camera, photo is matched with Actual value : Camera, photo
+ 2020-06-18 11:39:59-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:39:59-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:40:02-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:40:04-main--INFO -com.demoworkshop.qa.TestBase:Clicking on ONE_MP_60GB_Hard_DriveHandycam_Camcorder in Electronics
+ 2020-06-18 11:40:06-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Camcorder_Camera in Electronics
+ 2020-06-18 11:40:07-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Digital_SLR_Camera in Electronics
+ 2020-06-18 11:40:07-main--INFO -com.demoworkshop.qa.TestBase:Clicking on High_Definition_3D_Camcorder_Camera in Electronics
+ 2020-06-18 11:40:07-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Cell phones page 
+ 2020-06-18 11:40:07-main--INFO -com.demoworkshop.qa.TestBase:Cliking on Electronics Link
+ 2020-06-18 11:40:08-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Cell Phone Img in Electronics
+ 2020-06-18 11:40:11-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Cell Phone page is displayed
+ 2020-06-18 11:40:12-main--INFO -com.demoworkshop.qa.TestBase:Cell Phone page is displayed with expected :Cell phones is matched with Actual value : Cell phones
+ 2020-06-18 11:40:12-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:40:13-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:40:17-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:40:20-main--INFO -com.demoworkshop.qa.TestBase:Selecting phone cover 
+ 2020-06-18 11:40:21-main--INFO -com.demoworkshop.qa.TestBase:Selecting product manufacturer by Index  
+ 2020-06-18 11:40:23-main--INFO -com.demoworkshop.qa.TestBase:Selecting product color by Index
+ 2020-06-18 11:40:24-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Phone Cover
+ 2020-06-18 11:40:28-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Cell phones page 
+ 2020-06-18 11:40:28-main--INFO -com.demoworkshop.qa.TestBase:Selecting Smart phone page 
+ 2020-06-18 11:40:29-main--INFO -com.demoworkshop.qa.TestBase:Cliking on Digital Downloads Page Link
+ 2020-06-18 11:40:29-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Digital Downloads Page is displayed
+ 2020-06-18 11:40:31-main--INFO -com.demoworkshop.qa.TestBase:Digital Downloads Page is not displayed with expected :Digital downloads is not matched with Actual value : null
+ 2020-06-18 11:40:31-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:40:31-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:40:32-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:40:33-main--INFO -com.demoworkshop.qa.TestBase:Selecting 3rd Album  
+ 2020-06-18 11:40:35-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of 3rd Album Book 
+ 2020-06-18 11:40:42-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Digital Downloads page 
+ 2020-06-18 11:40:42-main--INFO -com.demoworkshop.qa.TestBase:Selecting Music2_1st_Release  
+ 2020-06-18 11:40:43-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Music2_1st_Release 
+ 2020-06-18 11:40:46-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Digital Downloads page 
+ 2020-06-18 11:40:46-main--INFO -com.demoworkshop.qa.TestBase:Selecting Music2_1st_Release  
+ 2020-06-18 11:40:46-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Music2_1st_Release 
+ 2020-06-18 11:40:52-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Gift Cards Link Page
+ 2020-06-18 11:40:52-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Physical Gift Card page is displayed
+ 2020-06-18 11:40:54-main--INFO -com.demoworkshop.qa.TestBase: Gift Card page is displayed with expected :Gift Cards is matched with Actual value : Gift Cards
+ 2020-06-18 11:40:58-main--INFO -com.demoworkshop.qa.TestBase:Selecting $100 Physical Gift Card 
+ 2020-06-18 11:41:00-main--INFO -com.demoworkshop.qa.TestBase:Entering Recipients Name through send keys
+ 2020-06-18 11:41:21-main--INFO -com.demoworkshop.qa.TestBase:Clicking on Apparel_And_Shoes_Link
+ 2020-06-18 11:41:21-main--INFO -com.demoworkshop.qa.TestBase:Verifying the Apparel_And_Shoes_Page is displayed
+ 2020-06-18 11:41:23-main--INFO -com.demoworkshop.qa.TestBase:Apparel And Shoes page is displayed with expected :Apparel & Shoes is matched with Actual value : Apparel & Shoes
+ 2020-06-18 11:41:23-main--INFO -com.demoworkshop.qa.TestBase:Selecting product position by it index value  
+ 2020-06-18 11:41:23-main--INFO -com.demoworkshop.qa.TestBase:Selecting display size of product
+ 2020-06-18 11:41:25-main--INFO -com.demoworkshop.qa.TestBase:Selecting view of products 
+ 2020-06-18 11:41:27-main--INFO -com.demoworkshop.qa.TestBase:Selecting Rockabilly_Polka_Dot_Top_JR_Plus_Size 
+ 2020-06-18 11:41:34-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Rockabilly_Polka_Dot_Top_JR_Plus_Size 
+ 2020-06-18 11:41:39-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Apparel and Shoes page 
+ 2020-06-18 11:41:39-main--INFO -com.demoworkshop.qa.TestBase:Selecting Blue_and_green_Sneaker 
+ 2020-06-18 11:41:39-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Blue_and_green_Sneaker 
+ 2020-06-18 11:41:44-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Apparel and Shoes page 
+ 2020-06-18 11:41:44-main--INFO -com.demoworkshop.qa.TestBase:Selecting Blue_Jeans 
+ 2020-06-18 11:41:45-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Blue_Jeans 
+ 2020-06-18 11:41:55-main--INFO -com.demoworkshop.qa.TestBase:Navigating back to Apparel and Shoes page 
+ 2020-06-18 11:41:55-main--INFO -com.demoworkshop.qa.TestBase:Selecting Casual_Golf_Belt 
+ 2020-06-18 11:41:56-main--INFO -com.demoworkshop.qa.TestBase:Adding Quantity of Casual_Golf_Belt 
+ 2020-06-18 12:09:36-main--INFO -com.demoworkshop.qa.TestBase:Navigating to browser : http://demowebshop.tricentis.com/
+ 

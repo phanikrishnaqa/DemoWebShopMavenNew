@@ -1,0 +1,12 @@
+com\demoworkshop\qa\TestBase.class
+com\demoworkshop\util\DemoWorkShop_Listener.class
+com\demoworkshop\qa\pages\DemoWorkShop_Books_Page.class
+com\demoworkshop\qa\pages\DemoWorkShop_SignIn.class
+com\demoworkshop\qa\pages\DemoWorkShop_Electronics_Page.class
+com\demoworkshop\qa\pages\DemoWorkShop_Gift_Cards_Page.class
+com\demoworkshop\util\WebEventListener.class
+com\demoworkshop\qa\pages\DemoWorkShop_HomePage.class
+com\demoworkshop\qa\pages\DeemoWorkShop_Jewelry_Page.class
+com\demoworkshop\qa\pages\DemoWorkShop_Computers_Page.class
+com\demoworkshop\qa\pages\DemoWorkShop_Digital_Downloads_Page.class
+com\demoworkshop\qa\pages\DemoWorkShop_Apparel_And_Shoes_Page.class

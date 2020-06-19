@@ -12,7 +12,7 @@ public class DemoWorkShop_SignIn extends TestBase{
 	
 public static final Logger log = Logger.getLogger(DemoWorkShop_SignIn.class.getName());
 	
-	@FindBy(linkText="Log in")
+	@FindBy(xpath ="//a[@class='ico-login']")
 	WebElement Loginlink;
 	
 	@FindBy(id="Email")

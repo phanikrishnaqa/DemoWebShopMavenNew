@@ -1,158 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Clicking on Books Link]]>
-    </line>
-    <line>
-      <![CDATA[Verifying the Books page is displayed]]>
-    </line>
-    <line>
-      <![CDATA[Books page is displayed with expected :Books is matched with Actual value : Books]]>
-    </line>
-    <line>
-      <![CDATA[Selecting product position by it index value  ]]>
-    </line>
-    <line>
-      <![CDATA[Selecting display size of product]]>
-    </line>
-    <line>
-      <![CDATA[Selecting view of products ]]>
-    </line>
-    <line>
-      <![CDATA[Selecting Computing and Internet Book ]]>
-    </line>
-    <line>
-      <![CDATA[Adding Quantity of Computing and Internet Book ]]>
-    </line>
-    <line>
-      <![CDATA[Navigating back to Book page ]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Books Link]]>
-    </line>
-    <line>
-      <![CDATA[Adding Quantity of Fiction Book ]]>
-    </line>
-    <line>
-      <![CDATA[Navigating back to Book page ]]>
-    </line>
-    <line>
-      <![CDATA[adding Health Book to cart]]>
-    </line>
-    <line>
-      <![CDATA[Adding Quantity of Health Book ]]>
-    </line>
-    <line>
-      <![CDATA[Navigating back to Book page ]]>
-    </line>
-    <line>
-      <![CDATA[Adding Science Book to cart]]>
-    </line>
-    <line>
-      <![CDATA[Adding Quantity of Science Book ]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21205" started-at="2020-06-18T18:38:38 IST" finished-at="2020-06-18T18:39:00 IST">
+  <suite name="Default suite" duration-ms="8543" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:36 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21205" started-at="2020-06-18T18:38:38 IST" finished-at="2020-06-18T18:39:00 IST">
+    <test name="Default test" duration-ms="8543" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:36 IST">
       <class name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeSuite" is-config="true" duration-ms="42756" started-at="2020-06-18T18:37:56 IST" finished-at="2020-06-18T18:38:38 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeSuite" is-config="true" duration-ms="16894" started-at="2020-06-19T21:09:11 IST" finished-at="2020-06-19T21:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-06-18T18:38:38 IST" finished-at="2020-06-18T18:38:38 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-06-18T18:38:38 IST" finished-at="2020-06-18T18:38:38 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-06-18T18:38:39 IST" finished-at="2020-06-18T18:38:39 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TC003_Books_link()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="TC003_Books_link" duration-ms="19735" started-at="2020-06-18T18:38:39 IST" finished-at="2020-06-18T18:38:58 IST">
+        <test-method status="PASS" signature="TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="TC001_LoginToDemoWebshop" duration-ms="4250" started-at="2020-06-19T21:09:28 IST" finished-at="2020-06-19T21:09:32 IST">
           <reporter-output>
-            <line>
-              <![CDATA[Clicking on Books Link]]>
-            </line>
-            <line>
-              <![CDATA[Verifying the Books page is displayed]]>
-            </line>
-            <line>
-              <![CDATA[Books page is displayed with expected :Books is matched with Actual value : Books]]>
-            </line>
-            <line>
-              <![CDATA[Selecting product position by it index value  ]]>
-            </line>
-            <line>
-              <![CDATA[Selecting display size of product]]>
-            </line>
-            <line>
-              <![CDATA[Selecting view of products ]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Computing and Internet Book ]]>
-            </line>
-            <line>
-              <![CDATA[Adding Quantity of Computing and Internet Book ]]>
-            </line>
-            <line>
-              <![CDATA[Navigating back to Book page ]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Books Link]]>
-            </line>
-            <line>
-              <![CDATA[Adding Quantity of Fiction Book ]]>
-            </line>
-            <line>
-              <![CDATA[Navigating back to Book page ]]>
-            </line>
-            <line>
-              <![CDATA[adding Health Book to cart]]>
-            </line>
-            <line>
-              <![CDATA[Adding Quantity of Health Book ]]>
-            </line>
-            <line>
-              <![CDATA[Navigating back to Book page ]]>
-            </line>
-            <line>
-              <![CDATA[Adding Science Book to cart]]>
-            </line>
-            <line>
-              <![CDATA[Adding Quantity of Science Book ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- TC003_Books_link -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="getResult" is-config="true" duration-ms="1212" started-at="2020-06-18T18:38:58 IST" finished-at="2020-06-18T18:38:59 IST">
+        </test-method> <!-- TC001_LoginToDemoWebshop -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterMethod" is-config="true" duration-ms="5" started-at="2020-06-19T21:09:32 IST" finished-at="2020-06-19T21:09:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="getResult" is-config="true" duration-ms="3616" started-at="2020-06-19T21:09:32 IST" finished-at="2020-06-19T21:09:36 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC003_Books_link status=SUCCESS method=DemoWorkShop_End_To_End.TC003_Books_link()[pri:3, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a] output=Clicking on Books Link]]]>
+                <![CDATA[[TestResult name=TC001_LoginToDemoWebshop status=SUCCESS method=DemoWorkShop_End_To_End.TC001_LoginToDemoWebshop()[pri:1, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-06-18T18:38:58 IST" finished-at="2020-06-18T18:38:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="AfterClass" is-config="true" duration-ms="123" started-at="2020-06-18T18:39:00 IST" finished-at="2020-06-18T18:39:00 IST">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="AfterClass" is-config="true" duration-ms="400" started-at="2020-06-19T21:09:36 IST" finished-at="2020-06-19T21:09:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterTest" is-config="true" duration-ms="2" started-at="2020-06-18T18:39:00 IST" finished-at="2020-06-18T18:39:00 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-06-19T21:09:36 IST" finished-at="2020-06-19T21:09:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterSuite" is-config="true" duration-ms="8859" started-at="2020-06-18T18:39:00 IST" finished-at="2020-06-18T18:39:09 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demoworkshop.qa.Test.DemoWorkShop_End_To_End@1e9e725a]" name="afterSuite" is-config="true" duration-ms="1415" started-at="2020-06-19T21:09:37 IST" finished-at="2020-06-19T21:09:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

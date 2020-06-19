@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="DESKTOP-20QI2OV" name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End" tests="2" failures="2" timestamp="18 Jun 2020 06:39:39 GMT" time="0.031" errors="0">
-  <testcase name="TC001_LoginToDemoWebshop" time="0.002" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
+<testsuite hostname="DESKTOP-20QI2OV" name="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End" tests="2" failures="2" timestamp="19 Jun 2020 15:41:31 GMT" time="0.26" errors="0">
+  <testcase name="TC001_LoginToDemoWebshop" time="0.003" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
     <failure type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
 	at com.demoworkshop.util.DemoWorkShop_Listener.onTestStart(DemoWorkShop_Listener.java:17)
@@ -13,7 +13,7 @@
 ... Removed 19 stack frames]]>
     </failure>
   </testcase>
-  <testcase name="TC001_LoginToDemoWebshop" time="0.021" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
+  <testcase name="TC001_LoginToDemoWebshop" time="0.194" classname="com.demoworkshop.qa.Test.DemoWorkShop_End_To_End">
     <failure type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
 	at com.demoworkshop.util.DemoWorkShop_Listener.onTestFailure(DemoWorkShop_Listener.java:29)

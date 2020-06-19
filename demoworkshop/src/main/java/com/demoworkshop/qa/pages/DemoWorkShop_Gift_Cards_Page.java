@@ -35,7 +35,7 @@ public class DemoWorkShop_Gift_Cards_Page extends TestBase{
 	@FindBy(id = "giftcard_4_RecipientName")//e7
 	WebElement Recipients_Name_$100_Physical_Gift_Card;
 
-	@FindBy(xpath = "//input[@name='giftcard_4.RecipientName']")//e8
+	@FindBy(id = "giftcard_4_SenderName")//e8
 	WebElement Your_Name_$100_Physical_Gift_Card;
 	
 	@FindBy(id = "giftcard_4_Message")//e9

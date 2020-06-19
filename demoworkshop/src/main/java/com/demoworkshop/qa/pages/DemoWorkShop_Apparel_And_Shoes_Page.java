@@ -40,7 +40,7 @@ public class DemoWorkShop_Apparel_And_Shoes_Page extends TestBase{
 	@FindBy(id = "add-to-cart-button-5")//e9
 	WebElement Add_To_Cart_Botton_Rockabilly_Polka_Dot_Top_JR_Plus_Size;
 
-	@FindBy(xpath = "//a[contains(text(),'Blue and green Sneaker')]")//e10
+	@FindBy(xpath = "//h2[@class='product-title']//a[contains(text(),'Blue and green Sneaker')]")//e10
 	WebElement Blue_and_green_Sneaker;
 	
 	@FindBy(id = "product_attribute_28_7_10")//e11
@@ -52,7 +52,7 @@ public class DemoWorkShop_Apparel_And_Shoes_Page extends TestBase{
 	@FindBy(id = "add-to-cart-button-28")//e13
 	WebElement Add_To_Cart_Botton_Blue_and_green_Sneaker;
 	
-	@FindBy(xpath ="//a[contains(text(),'Blue Jeans')]")//e14
+	@FindBy(xpath ="//div[@class='product-list']//div[3]//div[1]//div[1]//a[1]//img[1]")//e14
 	WebElement Blue_Jeans;
 
 	@FindBy(id = "addtocart_36_EnteredQuantity")//e15
@@ -61,28 +61,28 @@ public class DemoWorkShop_Apparel_And_Shoes_Page extends TestBase{
 	@FindBy(id = "add-to-cart-button-36")//e16
 	WebElement Add_To_Cart_Botton_Blue_Jeans;
 	
-	@FindBy(xpath ="//a[contains(text(),'Casual Golf Belt')]")//e17
+	@FindBy(xpath ="//div[@class='master-wrapper-main']//div[4]//div[1]//div[1]//a[1]//img[1]")//e17
 	WebElement Casual_Golf_Belt;
 
-	@FindBy(id = "addtocart_36_EnteredQuantity")//e18
+	@FindBy(id = "addtocart_40_EnteredQuantity")//e18
 	WebElement Add_Quantity_Casual_Golf_Belt;
 
-	@FindBy(id = "add-to-cart-button-36")//e19
+	@FindBy(id = "add-to-cart-button-40")//e19
 	WebElement Add_To_Cart_Botton_Casual_Golf_Belt;
 	
-	@FindBy(xpath ="//a[contains(text(),'Custom T-Shirt')]")//e20
+	@FindBy(xpath ="//div[5]//div[1]//div[1]//a[1]//img[1]")//e20
 	WebElement Custom_TShirt;
 	
 	@FindBy(id = "product_attribute_24_2_9")//e21
 	WebElement Enter_your_text_Custom_TShirt;
 
-	@FindBy(id = "addtocart_40_EnteredQuantity")//e22
+	@FindBy(id = "addtocart_24_EnteredQuantity")//e22
 	WebElement Add_Quantity_Custom_TShirt;
 
-	@FindBy(id = "add-to-cart-button-40")//e23
+	@FindBy(id = "add-to-cart-button-24")//e23
 	WebElement Add_To_Cart_Botton_Custom_TShirt;
 	
-	@FindBy(xpath ="//a[contains(text(),'Genuine Leather Handbag with Cell Phone Holder & M')]")//e24
+	@FindBy(xpath ="//div[6]//div[1]//div[1]//a[1]//img[1]")//e24
 	WebElement Genuine_Leather_Handbag_with_Cell_Phone_Holder_Many_Pockets;
 
 	@FindBy(id = "addtocart_29_EnteredQuantity")//e25
@@ -91,7 +91,7 @@ public class DemoWorkShop_Apparel_And_Shoes_Page extends TestBase{
 	@FindBy(id = "add-to-cart-button-29")//e26
 	WebElement Add_To_Cart_Botton_Genuine_Leather_Handbag_with_Cell_Phone_Holder_Many_Pockets;
 	
-	@FindBy(xpath ="//a[contains(text(),\"Men's Wrinkle Free Long Sleeve\")]")//e27
+	@FindBy(xpath ="//div[8]//div[1]//div[1]//a[1]//img[1]")//e27
 	WebElement Mens_Wrinkle_Free_Long_Sleeve;
 
 	@FindBy(id = "product_attribute_10_7_36")//e28
@@ -323,9 +323,9 @@ public void Click_VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines_Link() {
 	VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines.click();	//e34
 	
 	log("Adding Quantity of VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines ");
-	Add_Quantity_Sunglasses.clear();	//e35
-	Add_Quantity_Sunglasses.sendKeys("10");//e35
-	Add_To_Cart_Sunglasses.click();	//e36
+	Add_Quantity_VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines.clear();	//e35
+	Add_Quantity_VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines.sendKeys("10");//e35
+	Add_To_Cart_Botton_VBlue_Old_Persons_Cuffed_Denim_Short_with_Rhines.click();	//e36
 	
 	log("Navigating back to Apparel and Shoes page ");
 	driver.navigate().back();
@@ -361,11 +361,11 @@ public void Click_Wool_Hat_Link() {
 	Wool_Hat.click();	//e42
 	
 	log("Adding Quantity of Wool_Hat ");
-	Select By_Size = new Select(Mens_Wrinkle_Free_Long_Sleeve_By_Size);
+	Select By_Size = new Select(Wool_Hat_By_Size);
 	By_Size.selectByVisibleText("Large");//E43
-	Add_Quantity_Mens_Wrinkle_Free_Long_Sleeve.clear();	//e44
-	Add_Quantity_Mens_Wrinkle_Free_Long_Sleeve.sendKeys("10");//e44
-	Add_To_Cart_Botton_Mens_Wrinkle_Free_Long_Sleeve.click();	//e45
+	Add_Quantity_Wool_Hat.clear();	//e44
+	Add_Quantity_Wool_Hat.sendKeys("10");//e44
+	Add_To_Cart_Botton_Wool_Hat.click();	//e45
 	
 	System.out.println("***************************************");
 	

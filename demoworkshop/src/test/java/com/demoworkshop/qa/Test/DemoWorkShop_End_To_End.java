@@ -71,7 +71,7 @@ public class DemoWorkShop_End_To_End extends TestBase{
   
 	@Test(priority=1, testName="TC001_LoginToDemoWebshop")
 	public void TC001_LoginToDemoWebshop() {
-		extentTest = extentRep.startTest("TC001_LoginToDemoWebshop");
+		extentTest = extentRep.startTest("Signin to Demo web shop is successful");
 		DemoWorkShop_SignIn.DemoWorkShopSignIn();
 	
 	}
@@ -85,31 +85,31 @@ public class DemoWorkShop_End_To_End extends TestBase{
 	@Test(priority=3, testName="TC003_Books_link")
     public void TC003_Books_link() {
 		
-		extentTest = extentRep.startTest( "Clicking on Books link is sucessfull");
+		extentTest = extentRep.startTest( "Clicking on Books link is successful");
 		DemoWorkShop_Books_Page.Click_Books_Link("Books");
 		
 		
-		extentTest= extentRep.startTest("Selecting Computer Internet Book is sucessfull");
+		extentTest= extentRep.startTest("Selecting Computer Internet Book is successful");
 		DemoWorkShop_Books_Page.Click_Computing_Internet_Book_Img();
 		
-		extentTest= extentRep.startTest("Selecting Fiction Book is sucessfull");
+		extentTest= extentRep.startTest("Selecting Fiction Book is successful");
 		DemoWorkShop_Books_Page.Click_Fiction_Book_Img();
 		
-		extentTest= extentRep.startTest("Selecting Health Book is sucessfull");
+		extentTest= extentRep.startTest("Selecting Health Book is successful");
 		DemoWorkShop_Books_Page.Click_Health_Book_Img();
 		
-		extentTest= extentRep.startTest("Selecting Science Book is sucessfull");
+		extentTest= extentRep.startTest("Selecting Science Book is successful");
 		DemoWorkShop_Books_Page.Click_Science_Book_Img();
 		
 	}
   
 	@Test(priority=4, testName="TC004_Electronics_page")
 	public void TC004_Electronics_page() {
-		
-		extentTest= extentRep.startTest("Signin to Demo web shop is sucessfull");
+
+		extentTest= extentRep.startTest("Signin to Demo web shop is successful");
 		DemoWorkShop_Electronics_Page.Click_Electronics_page("Electronics");
 		
-		extentTest= extentRep.startTest("Clicking on Books link is sucessfull");
+		extentTest= extentRep.startTest("Clicking on Books link is successful");
 		DemoWorkShop_Electronics_Page.Click_Camera_Photo_page("Camera, photo");
 		
 		extentTest= extentRep.startTest("Selecting Computer Internet Book is sucessfull");
@@ -165,7 +165,7 @@ public class DemoWorkShop_End_To_End extends TestBase{
 	
 	@Test(priority=7, testName="TC007_DemoWorkShop_Apparel_And_Shoes_Page")
 	public void TC007_DemoWorkShop_Apparel_And_Shoes_Page() {
-	
+		
 		extentTest= extentRep.startTest("Signin to Demo web shop is sucessfull");
 		DemoWorkShop_Apparel_And_Shoes_Page.Click_Apparel_And_Shoes_Link("Apparel & Shoes");
 		

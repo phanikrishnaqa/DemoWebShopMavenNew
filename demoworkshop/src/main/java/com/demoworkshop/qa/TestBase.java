@@ -98,7 +98,7 @@ public void selectBrowsers(String browser) {
 			//driver = new GeckoDriverService(); 
 			
 		}else if(browser.equals("ie")) {
-			driver = new InternetExplorerDriver();
+			//driver = new InternetExplorerDriver();
 		}
 	}else if(osName.contains("Mac")){
 		if(browser.equals("chrome")) {
@@ -108,7 +108,7 @@ public void selectBrowsers(String browser) {
 			//driver = new GeckoDriverService(); 
 			
 		}else if(browser.equals("ie")) {
-			driver = new InternetExplorerDriver();
+			//driver = new InternetExplorerDriver();
 		}
 	}else if((osName.contains("ubantu"))) {
 		if(browser.equals("chrome")) {
@@ -118,7 +118,7 @@ public void selectBrowsers(String browser) {
 			//driver = new GeckoDriverService(); 
 			
 		}else if(browser.equals("ie")) {
-			driver = new InternetExplorerDriver();
+			//driver = new InternetExplorerDriver();
 		}
 	}
 	

@@ -39,7 +39,11 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>    
+                    </suiteXmlFiles>
+                    
+                    <systemPropertyVariables>
+                    	<ExecutionBrowser>${browser}</ExecutionBrowser>                    
+                    </systemPropertyVariables>    
                 </configuration>
           </plugin>     
     </plugins>	
